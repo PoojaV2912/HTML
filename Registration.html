@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head style="text-align: center;">
+        <title>Reistration form</title>
+        <link rel="stylefile" href="buttonclass.css">
+        <link rel="stylesheet" href="buttonclass.css">
+        <script src="script.js"></script>
+        <style></style>
+        <script></script>
+    </head>
+    <body>
+        <div class="h2Css">
+            <h1 style="text-align: center;">Registration form</h1>
+        </div><hr>
+        <form class="formCss"><br>
+            <div id="classId">
+                Name<span style="color: red;">*</span>:<input type="text" name="Inputname" required>
+            </div><br>
+            <div id="email">
+                Email-Id <span style="color: red">*</span>:<input type="email" name="emailname" required>
+            </div><br>
+            <div>
+                Password <span style="color: red;">*</span>:<input type="password" name="password" required>
+            </div><br>
+            <div id="memberId">
+                Member-Id <span style="color: red">*</span>:<input type="number" name="number" required>
+            </div><br>
+            <div id="genderId">
+                Please enter:
+                <input type="radio" id="male" name="male" value="male">
+                <label for="male">male</label>
+                <input type="radio" id="female" name="male" value="female">
+                <label for="female">female</label>
+            </div><br>
+            <div id="shiftId">
+                Select Shift:
+                <select>
+                    <option value="morningshift">Morning</option>
+                    <option value="afternoonshift">Afternoon</option>
+                    <option value="nightshift">Evening</option>
+                    <option value="nightshift">Night</option>
+                </select>
+            </div><br>
+            Date:<input type="date"><br><br>
+            <div id="technology">
+                Select technologies:
+                <input type="checkbox" id="ip1" name="checkname">
+                <label for="ip1">Java</label>
+                <input type="checkbox" id="ip2" name="checkname">
+                <label for="ip2">Web</label>
+                <input type="checkbox" id="ip3" name="checkname">
+                <label for="ip3">SQL</label>
+            </div><br>
+            <button class="buttonclass" type="submit">Submit</button>
+            <button class="buttonclass1" type="reset">Reset</button>
+        </form>
+    </body>
+</html>
